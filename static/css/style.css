@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+} 
+.button {
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 6px 5px -3px #666;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.button-main {
+    background-color: #ff5d73;
+    color: #fff;
+}
+.button-secondary {
+    background-color: #968DBC;
+    color: #fff;
+}
+.button-secondary-left {
+    background: linear-gradient(to right, #615591 -30%, #a69fc6 100%);
+}
+.button-secondary-right {
+    background: linear-gradient(to left, #615591 -30%, #a69fc6 100%);
+}
+.button-right {
+    float: right;
+}
+.search-container .button {
+    margin-top: 0.7em;
+    width: 355px;
+    border: 2px solid #fff;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}  
+.search-container {
+    width: 90%;
+    margin: 2em auto;
+    padding: 1em;
+    position: relative;
+    top: -15em;
+}
+.search-form {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 70%;
+}
+.input-container {
+    display: inline-block;
+    padding: 0.5em 1em 1em;
+    background-color: #ff5d73;
+    border-radius: 3px;
+    border: 2px solid #fff;
+    border-top: 0;
+    border-bottom: 0;
+}
+label {
+    margin-right: 0.5em;
+    margin-bottom: 0.1em;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+}
+input {
+    border: 0;
+    padding: 10px;
+    border-radius: 3px;
+    width: 300px;
+}
+.search-form .button {
+    box-shadow: none;
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0.5;
+  }
+  /* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+    transition: all 1.5s ease;
+  }
+  .slide-fade-leave-active {
+    transition: all 1.8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  }
+  .slide-fade-enter, .slide-fade-leave-to
+  /* .slide-fade-leave-active below version 2.1.8 */ {
+    /* transform: translateY(-5px); */
+    opacity: 0;
+  }
