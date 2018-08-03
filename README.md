@@ -1,4 +1,3 @@
-<h1 align="center">Work in Progress!</h1>
 <h1 align="center">Career Page</h1>
 <h2 align="center">Made Vue.js 2 and Firebase</h2>
 <p align="center">Live preview: <a href="https://vue-career-page.firebaseapp.com">Career Page</a></p><br>
